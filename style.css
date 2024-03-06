@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Geologica';
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(120, 197, 245);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  height: 720px;
+  width: 420px;
+  background-color: #fff;
+  border: 2.5px solid black;
+  position: relative;
+  border-radius: 15px;
+}
+
+#storiya {
+  height: 120px;
+  width: 100%;
+  border-bottom: 1px solid #dadada;
+  padding: 15px;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#storiya::-webkit-scrollbar {
+  display: none;
+}
+
+.story {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: 3px solid rgb(50, 172, 67);
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.story img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#full-screen {
+  height: 100%; /*54.6vh; */
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  display: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* .insta {
+  position: relative;
+  height: 65px;
+  width: 100%;
+  display: flex;
+}
+
+.insta img {
+  height: 3vh;
+  width: 11.5vw;
+  margin: 25px 15px;
+}
+
+.insta i {
+  font-size: 30px;
+  font-weight: 590;
+  margin: 25px 10px;
+}
+
+.ri-heart-3-line {
+  padding-left: 155px;
+} */
